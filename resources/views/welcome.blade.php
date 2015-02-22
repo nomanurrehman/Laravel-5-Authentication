@@ -28,10 +28,15 @@
 			.title {
 				font-size: 96px;
 				margin-bottom: 40px;
+				color: #f4645f;
+				font-weight: bold;
 			}
 
 			.quote {
 				font-size: 24px;
+				color: #f4645f;
+				font-style: italic;
+				font-weight: bold;
 			}
 		</style>
 	</head>
@@ -39,7 +44,7 @@
 		<div class="container">
 			<div class="content">
 				<div class="title">Laravel 5</div>
-				<div class="quote">{{ Inspiring::quote() }}</div>
+				<div class="quote">Using The Authentication Facade</div>
 			</div>
 		</div>
 	</body>
